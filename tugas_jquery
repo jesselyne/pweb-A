@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Tugas JavaScript</title>
+    <title>Multiplication</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,6 +24,10 @@
         h2 {
             margin-top: 25px;
             text-align: center;
+        }
+
+        p.groove {
+            border-style: groove;
         }
 
         #outer {
@@ -66,6 +70,19 @@
                 </div>
             </div>
         </form>
+        <!-- Coding ALpro
+        import java.util.Scanner;
+
+            public class CalculatorLoop{
+                public static void main(String[] args){
+                    Scanner sc = new Scanner(System.in);
+                    System.out.print("Enter a number : ");
+                    double input = sc.nextDouble();
+                    
+                for(int i = 1; i <= 12; i++) {
+                        System.out.println(input + " *" + i + " = " + input * i);}
+                }
+            } -->
     </div>
 
 </body>
